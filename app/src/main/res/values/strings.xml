@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Chatting</string>
+    <string name="username">Username</string>
+    <string name="email1">Email</string>
+    <string name="password1">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_out">Log out</string>
+    <string name="signed_in">Signed In</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="status">Status</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_settings">Account Settings</string>
+</resources>
