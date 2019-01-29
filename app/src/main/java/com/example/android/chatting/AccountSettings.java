@@ -40,13 +40,13 @@ public class AccountSettings extends AppCompatActivity {
 
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                try {
-                    Toast.makeText(AccountSettings.this, dataSnapshot.child("name").getValue().toString(), Toast.LENGTH_SHORT).show();
-                    String name = dataSnapshot.child("name").getValue().toString();
-                    String status = dataSnapshot.child("status").getValue().toString();
-                    acc_name.setText(name);
-                    acc_status.setText(status);
-                }catch (Exception e){e.printStackTrace();}
+                    //Toast.makeText(AccountSettings.this, dataSnapshot.child("name").getValue().toString(), Toast.LENGTH_SHORT).show();
+                    try{
+                        String name = dataSnapshot.child("name").getValue().toString();
+                        String status = dataSnapshot.child("status").getValue().toString();
+                        acc_name.setText(name);
+                        acc_status.setText(status);}catch (Exception e){e.printStackTrace();}
+
             }
 
             @Override
